@@ -1,0 +1,410 @@
+Info: Starting: Create testbench Platform Designer system
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System.ipx
+Info: qsys-generate /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System.qsys --testbench=STANDARD --output-directory=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 17.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 17.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 17.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding user_extra_inputs [altera_avalon_pio 17.1]
+Progress: Parameterizing module user_extra_inputs
+Progress: Adding user_extra_outputs [altera_avalon_pio 17.1]
+Progress: Parameterizing module user_extra_outputs
+Progress: Adding user_input_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module user_input_0
+Progress: Adding user_input_1 [altera_avalon_pio 17.1]
+Progress: Parameterizing module user_input_1
+Progress: Adding user_output [altera_avalon_pio 17.1]
+Progress: Parameterizing module user_output
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: My_Processing_System.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: My_Processing_System.user_extra_outputs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: My_Processing_System.user_output: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/root_components.ipx
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/root_components.ipx: Loading now from components.ipx
+Info: Reading index /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/ip_component_categories.ipx
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System.ipx
+Progress: Loading NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System.qsys
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/* matched 14 files in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/ip/**/* matched 0 files in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/*/* matched 13 files in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System.ipx described 0 plugins, 3 paths, in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/* matched 4 files in 0.00 seconds
+Info: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/*/* matched 0 files in 0.00 seconds
+Info: /home/patkar/.altera.quartus/ip/17.1/**/* matched 0 files in 0.00 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index /opt/quartus/intelFPGA_lite/17.1/ip/altera/altera_components.ipx
+Info: /opt/quartus/intelFPGA_lite/17.1/ip/altera/altera_components.ipx described 2006 plugins, 0 paths, in 0.22 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/ip/**/* matched 138 files in 0.22 seconds
+Info: /opt/quartus/intelFPGA_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/builtin.ipx
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/**/* matched 9 files in 0.01 seconds
+Info: Reading index /opt/quartus/intelFPGA_lite/17.1/quartus/common/librarian/factories/index.ipx
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/common/librarian/factories/index.ipx described 151 plugins, 0 paths, in 0.01 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/common/librarian/factories/**/* matched 4 files in 0.01 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/root_components.ipx described 0 plugins, 13 paths, in 0.25 seconds
+Info: /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.25 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: My_Processing_System
+Info: TB_Gen: System design is: My_Processing_System
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: get_interface_property user_extra_inputs EXPORT_OF
+Info: get_instance_property user_extra_inputs CLASS_NAME
+Info: get_instance_assignment user_extra_inputs testbench.partner.map.external_connection
+Info: get_interface_property user_extra_outputs EXPORT_OF
+Info: get_instance_property user_extra_outputs CLASS_NAME
+Info: get_instance_assignment user_extra_outputs testbench.partner.map.external_connection
+Info: get_interface_property user_input_0 EXPORT_OF
+Info: get_instance_property user_input_0 CLASS_NAME
+Info: get_instance_assignment user_input_0 testbench.partner.map.external_connection
+Info: get_interface_property user_input_1 EXPORT_OF
+Info: get_instance_property user_input_1 CLASS_NAME
+Info: get_instance_assignment user_input_1 testbench.partner.map.external_connection
+Info: get_interface_property user_output EXPORT_OF
+Info: get_instance_property user_output CLASS_NAME
+Info: get_instance_assignment user_output testbench.partner.map.external_connection
+Info: send_message Info TB_Gen: Creating testbench system : My_Processing_System_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : My_Processing_System_tb with all standard BFMs
+Info: create_system My_Processing_System_tb
+Info: add_instance My_Processing_System_inst My_Processing_System 
+Info: set_use_testbench_naming_pattern true My_Processing_System
+Info: get_instance_interfaces My_Processing_System_inst
+Info: get_instance_interface_property My_Processing_System_inst clk CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst reset CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_extra_inputs CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_extra_outputs CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_input_0 CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_input_1 CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_output CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property My_Processing_System_inst clk CLASS_NAME
+Info: add_instance My_Processing_System_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property My_Processing_System_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst clk clockRate
+Info: set_instance_parameter_value My_Processing_System_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value My_Processing_System_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property My_Processing_System_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst clk CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_clk_bfm
+Info: get_instance_interface_property My_Processing_System_inst_clk_bfm clk CLASS_NAME
+Info: add_connection My_Processing_System_inst_clk_bfm.clk My_Processing_System_inst.clk
+Info: get_instance_interface_property My_Processing_System_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property My_Processing_System_inst reset CLASS_NAME
+Info: add_instance My_Processing_System_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property My_Processing_System_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports My_Processing_System_inst reset
+Info: get_instance_interface_port_property My_Processing_System_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value My_Processing_System_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property My_Processing_System_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_reset_bfm
+Info: get_instance_interface_property My_Processing_System_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property My_Processing_System_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst reset associatedClock
+Info: get_instance_interfaces My_Processing_System_inst_clk_bfm
+Info: get_instance_interface_property My_Processing_System_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: My_Processing_System_inst_reset_bfm is not associated to any clock; connecting My_Processing_System_inst_reset_bfm to 'My_Processing_System_inst_clk_bfm.clk'
+Warning: TB_Gen: My_Processing_System_inst_reset_bfm is not associated to any clock; connecting My_Processing_System_inst_reset_bfm to 'My_Processing_System_inst_clk_bfm.clk'
+Info: add_connection My_Processing_System_inst_clk_bfm.clk My_Processing_System_inst_reset_bfm.clk
+Info: get_instance_interface_property My_Processing_System_inst reset CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_reset_bfm
+Info: get_instance_interface_property My_Processing_System_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst_reset_bfm reset CLASS_NAME
+Info: add_connection My_Processing_System_inst_reset_bfm.reset My_Processing_System_inst.reset
+Info: get_instance_interface_property My_Processing_System_inst user_extra_inputs CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: user_extra_inputs
+Info: TB_Gen: conduit_end found: user_extra_inputs
+Info: get_instance_interface_property My_Processing_System_inst user_extra_inputs CLASS_NAME
+Info: add_instance My_Processing_System_inst_user_extra_inputs_bfm altera_conduit_bfm 
+Info: get_instance_property My_Processing_System_inst_user_extra_inputs_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_extra_inputs associatedClock
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_extra_inputs associatedReset
+Info: get_instance_interface_ports My_Processing_System_inst user_extra_inputs
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_inputs user_extra_inputs_export ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_inputs user_extra_inputs_export WIDTH
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_inputs user_extra_inputs_export DIRECTION
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_inputs_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_inputs_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_inputs_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_inputs_bfm SIGNAL_WIDTHS 4
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_inputs_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property My_Processing_System_inst_user_extra_inputs_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_extra_inputs CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_user_extra_inputs_bfm
+Info: get_instance_interface_property My_Processing_System_inst_user_extra_inputs_bfm conduit CLASS_NAME
+Info: add_connection My_Processing_System_inst_user_extra_inputs_bfm.conduit My_Processing_System_inst.user_extra_inputs
+Info: get_instance_interface_property My_Processing_System_inst user_extra_outputs CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: user_extra_outputs
+Info: TB_Gen: conduit_end found: user_extra_outputs
+Info: get_instance_interface_property My_Processing_System_inst user_extra_outputs CLASS_NAME
+Info: add_instance My_Processing_System_inst_user_extra_outputs_bfm altera_conduit_bfm 
+Info: get_instance_property My_Processing_System_inst_user_extra_outputs_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_extra_outputs associatedClock
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_extra_outputs associatedReset
+Info: get_instance_interface_ports My_Processing_System_inst user_extra_outputs
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_outputs user_extra_outputs_export ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_outputs user_extra_outputs_export WIDTH
+Info: get_instance_interface_port_property My_Processing_System_inst user_extra_outputs user_extra_outputs_export DIRECTION
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_outputs_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_outputs_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_outputs_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_outputs_bfm SIGNAL_WIDTHS 4
+Info: set_instance_parameter_value My_Processing_System_inst_user_extra_outputs_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property My_Processing_System_inst_user_extra_outputs_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_extra_outputs CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_user_extra_outputs_bfm
+Info: get_instance_interface_property My_Processing_System_inst_user_extra_outputs_bfm conduit CLASS_NAME
+Info: add_connection My_Processing_System_inst_user_extra_outputs_bfm.conduit My_Processing_System_inst.user_extra_outputs
+Info: get_instance_interface_property My_Processing_System_inst user_input_0 CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: user_input_0
+Info: TB_Gen: conduit_end found: user_input_0
+Info: get_instance_interface_property My_Processing_System_inst user_input_0 CLASS_NAME
+Info: add_instance My_Processing_System_inst_user_input_0_bfm altera_conduit_bfm 
+Info: get_instance_property My_Processing_System_inst_user_input_0_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_input_0 associatedClock
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_input_0 associatedReset
+Info: get_instance_interface_ports My_Processing_System_inst user_input_0
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_0 user_input_0_export ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_0 user_input_0_export WIDTH
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_0 user_input_0_export DIRECTION
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_0_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_0_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_0_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_0_bfm SIGNAL_WIDTHS 32
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_0_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property My_Processing_System_inst_user_input_0_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_input_0 CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_user_input_0_bfm
+Info: get_instance_interface_property My_Processing_System_inst_user_input_0_bfm conduit CLASS_NAME
+Info: add_connection My_Processing_System_inst_user_input_0_bfm.conduit My_Processing_System_inst.user_input_0
+Info: get_instance_interface_property My_Processing_System_inst user_input_1 CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: user_input_1
+Info: TB_Gen: conduit_end found: user_input_1
+Info: get_instance_interface_property My_Processing_System_inst user_input_1 CLASS_NAME
+Info: add_instance My_Processing_System_inst_user_input_1_bfm altera_conduit_bfm 
+Info: get_instance_property My_Processing_System_inst_user_input_1_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_input_1 associatedClock
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_input_1 associatedReset
+Info: get_instance_interface_ports My_Processing_System_inst user_input_1
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_1 user_input_1_export ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_1 user_input_1_export WIDTH
+Info: get_instance_interface_port_property My_Processing_System_inst user_input_1 user_input_1_export DIRECTION
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_1_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_1_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_1_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_1_bfm SIGNAL_WIDTHS 32
+Info: set_instance_parameter_value My_Processing_System_inst_user_input_1_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property My_Processing_System_inst_user_input_1_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_input_1 CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_user_input_1_bfm
+Info: get_instance_interface_property My_Processing_System_inst_user_input_1_bfm conduit CLASS_NAME
+Info: add_connection My_Processing_System_inst_user_input_1_bfm.conduit My_Processing_System_inst.user_input_1
+Info: get_instance_interface_property My_Processing_System_inst user_output CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: user_output
+Info: TB_Gen: conduit_end found: user_output
+Info: get_instance_interface_property My_Processing_System_inst user_output CLASS_NAME
+Info: add_instance My_Processing_System_inst_user_output_bfm altera_conduit_bfm 
+Info: get_instance_property My_Processing_System_inst_user_output_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_output associatedClock
+Info: get_instance_interface_parameter_value My_Processing_System_inst user_output associatedReset
+Info: get_instance_interface_ports My_Processing_System_inst user_output
+Info: get_instance_interface_port_property My_Processing_System_inst user_output user_output_export ROLE
+Info: get_instance_interface_port_property My_Processing_System_inst user_output user_output_export WIDTH
+Info: get_instance_interface_port_property My_Processing_System_inst user_output user_output_export DIRECTION
+Info: set_instance_parameter_value My_Processing_System_inst_user_output_bfm CLOCKED_SIGNAL 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_output_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value My_Processing_System_inst_user_output_bfm SIGNAL_ROLES export
+Info: set_instance_parameter_value My_Processing_System_inst_user_output_bfm SIGNAL_WIDTHS 32
+Info: set_instance_parameter_value My_Processing_System_inst_user_output_bfm SIGNAL_DIRECTIONS output
+Info: get_instance_property My_Processing_System_inst_user_output_bfm CLASS_NAME
+Info: get_instance_interface_property My_Processing_System_inst user_output CLASS_NAME
+Info: get_instance_interfaces My_Processing_System_inst_user_output_bfm
+Info: get_instance_interface_property My_Processing_System_inst_user_output_bfm conduit CLASS_NAME
+Info: add_connection My_Processing_System_inst_user_output_bfm.conduit My_Processing_System_inst.user_output
+Info: send_message Info TB_Gen: Saving testbench system: My_Processing_System_tb.qsys
+Info: TB_Gen: Saving testbench system: My_Processing_System_tb.qsys
+Info: save_system My_Processing_System_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb.qsys
+Info: Done
+Info: qsys-generate /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading testbench/My_Processing_System_tb.qsys
+Progress: Reading input file
+Progress: Adding My_Processing_System_inst [My_Processing_System 1.0]
+Progress: Parameterizing module My_Processing_System_inst
+Progress: Adding My_Processing_System_inst_clk_bfm [altera_avalon_clock_source 17.1]
+Progress: Parameterizing module My_Processing_System_inst_clk_bfm
+Progress: Adding My_Processing_System_inst_reset_bfm [altera_avalon_reset_source 17.1]
+Progress: Parameterizing module My_Processing_System_inst_reset_bfm
+Progress: Adding My_Processing_System_inst_user_extra_inputs_bfm [altera_conduit_bfm 17.1]
+Progress: Parameterizing module My_Processing_System_inst_user_extra_inputs_bfm
+Progress: Adding My_Processing_System_inst_user_extra_outputs_bfm [altera_conduit_bfm 17.1]
+Progress: Parameterizing module My_Processing_System_inst_user_extra_outputs_bfm
+Progress: Adding My_Processing_System_inst_user_input_0_bfm [altera_conduit_bfm 17.1]
+Progress: Parameterizing module My_Processing_System_inst_user_input_0_bfm
+Progress: Adding My_Processing_System_inst_user_input_1_bfm [altera_conduit_bfm 17.1]
+Progress: Parameterizing module My_Processing_System_inst_user_input_1_bfm
+Progress: Adding My_Processing_System_inst_user_output_bfm [altera_conduit_bfm 17.1]
+Progress: Parameterizing module My_Processing_System_inst_user_output_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: My_Processing_System_tb.My_Processing_System_inst.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: My_Processing_System_tb.My_Processing_System_inst.user_extra_outputs: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: My_Processing_System_tb.My_Processing_System_inst.user_output: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: My_Processing_System_tb.My_Processing_System_inst_clk_bfm: Elaborate: altera_clock_source
+Info: My_Processing_System_tb.My_Processing_System_inst_clk_bfm:            $Revision: #3 $
+Info: My_Processing_System_tb.My_Processing_System_inst_clk_bfm:            $Date: 2017/09/19 $
+Info: My_Processing_System_tb.My_Processing_System_inst_reset_bfm: Elaborate: altera_reset_source
+Info: My_Processing_System_tb.My_Processing_System_inst_reset_bfm:            $Revision: #3 $
+Info: My_Processing_System_tb.My_Processing_System_inst_reset_bfm:            $Date: 2017/09/19 $
+Info: My_Processing_System_tb.My_Processing_System_inst_reset_bfm: Reset is negatively asserted.
+Info: My_Processing_System_tb: Generating My_Processing_System_tb "My_Processing_System_tb" for SIM_VERILOG
+Info: My_Processing_System_inst: "My_Processing_System_tb" instantiated My_Processing_System "My_Processing_System_inst"
+Info: My_Processing_System_inst_clk_bfm: "My_Processing_System_tb" instantiated altera_avalon_clock_source "My_Processing_System_inst_clk_bfm"
+Info: My_Processing_System_inst_reset_bfm: "My_Processing_System_tb" instantiated altera_avalon_reset_source "My_Processing_System_inst_reset_bfm"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/verbosity_pkg.sv
+Info: My_Processing_System_inst_user_extra_inputs_bfm: "My_Processing_System_tb" instantiated altera_conduit_bfm "My_Processing_System_inst_user_extra_inputs_bfm"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/verbosity_pkg.sv
+Info: My_Processing_System_inst_user_extra_outputs_bfm: "My_Processing_System_tb" instantiated altera_conduit_bfm "My_Processing_System_inst_user_extra_outputs_bfm"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/verbosity_pkg.sv
+Info: My_Processing_System_inst_user_input_0_bfm: "My_Processing_System_tb" instantiated altera_conduit_bfm "My_Processing_System_inst_user_input_0_bfm"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/verbosity_pkg.sv
+Info: My_Processing_System_inst_user_output_bfm: "My_Processing_System_tb" instantiated altera_conduit_bfm "My_Processing_System_inst_user_output_bfm"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/verbosity_pkg.sv
+Info: jtag_uart_0: Starting RTL generation for module 'My_Processing_System_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=My_Processing_System_jtag_uart_0 --dir=/tmp/alt8309_4439203134063168686.dir/0034_jtag_uart_0_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0034_jtag_uart_0_gen//My_Processing_System_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0034_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'My_Processing_System_jtag_uart_0'
+Info: jtag_uart_0: "My_Processing_System_inst" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "My_Processing_System_inst" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'My_Processing_System_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=My_Processing_System_onchip_memory2_0 --dir=/tmp/alt8309_4439203134063168686.dir/0035_onchip_memory2_0_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0035_onchip_memory2_0_gen//My_Processing_System_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0035_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0: Done RTL generation for module 'My_Processing_System_onchip_memory2_0'
+Info: onchip_memory2_0: "My_Processing_System_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: user_extra_inputs: Starting RTL generation for module 'My_Processing_System_user_extra_inputs'
+Info: user_extra_inputs:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=My_Processing_System_user_extra_inputs --dir=/tmp/alt8309_4439203134063168686.dir/0036_user_extra_inputs_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0036_user_extra_inputs_gen//My_Processing_System_user_extra_inputs_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0036_user_extra_inputs_gen/  ]
+Info: user_extra_inputs: Done RTL generation for module 'My_Processing_System_user_extra_inputs'
+Info: user_extra_inputs: "My_Processing_System_inst" instantiated altera_avalon_pio "user_extra_inputs"
+Info: user_extra_outputs: Starting RTL generation for module 'My_Processing_System_user_extra_outputs'
+Info: user_extra_outputs:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=My_Processing_System_user_extra_outputs --dir=/tmp/alt8309_4439203134063168686.dir/0037_user_extra_outputs_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0037_user_extra_outputs_gen//My_Processing_System_user_extra_outputs_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0037_user_extra_outputs_gen/  ]
+Info: user_extra_outputs: Done RTL generation for module 'My_Processing_System_user_extra_outputs'
+Info: user_extra_outputs: "My_Processing_System_inst" instantiated altera_avalon_pio "user_extra_outputs"
+Info: user_input_0: Starting RTL generation for module 'My_Processing_System_user_input_0'
+Info: user_input_0:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=My_Processing_System_user_input_0 --dir=/tmp/alt8309_4439203134063168686.dir/0038_user_input_0_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0038_user_input_0_gen//My_Processing_System_user_input_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0038_user_input_0_gen/  ]
+Info: user_input_0: Done RTL generation for module 'My_Processing_System_user_input_0'
+Info: user_input_0: "My_Processing_System_inst" instantiated altera_avalon_pio "user_input_0"
+Info: user_output: Starting RTL generation for module 'My_Processing_System_user_output'
+Info: user_output:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/bin/perl -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=My_Processing_System_user_output --dir=/tmp/alt8309_4439203134063168686.dir/0039_user_output_gen/ --quartus_dir=/opt/quartus/intelFPGA_lite/17.1/quartus --verilog --config=/tmp/alt8309_4439203134063168686.dir/0039_user_output_gen//My_Processing_System_user_output_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0039_user_output_gen/  ]
+Info: user_output: Done RTL generation for module 'My_Processing_System_user_output'
+Info: user_output: "My_Processing_System_inst" instantiated altera_avalon_pio "user_output"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "My_Processing_System_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "My_Processing_System_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "My_Processing_System_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'My_Processing_System_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec /opt/quartus/intelFPGA_lite/17.1/quartus/linux64//eperlcmd -I /opt/quartus/intelFPGA_lite/17.1/quartus/linux64//perl/lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/europa -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin/perl_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/sopc_builder/bin -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /opt/quartus/intelFPGA_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=My_Processing_System_nios2_gen2_0_cpu --dir=/tmp/alt8309_4439203134063168686.dir/0042_cpu_gen/ --quartus_bindir=/opt/quartus/intelFPGA_lite/17.1/quartus/linux64/ --verilog --config=/tmp/alt8309_4439203134063168686.dir/0042_cpu_gen//My_Processing_System_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8309_4439203134063168686.dir/0042_cpu_gen/  ]
+Info: cpu: # 2020.02.17 21:07:31 (*) Starting Nios II generation
+Info: cpu: # 2020.02.17 21:07:31 (*)   Checking for plaintext license.
+Info: cpu: # 2020.02.17 21:07:31 (*)   Couldn't query license setup in Quartus directory /opt/quartus/intelFPGA_lite/17.1/quartus/linux64/
+Info: cpu: # 2020.02.17 21:07:31 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.02.17 21:07:31 (*)   Plaintext license not found.
+Info: cpu: # 2020.02.17 21:07:31 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.02.17 21:07:31 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.02.17 21:07:31 (*)   Creating all objects for CPU
+Info: cpu: # 2020.02.17 21:07:32 (*)   Creating '/tmp/alt8309_4439203134063168686.dir/0042_cpu_gen//My_Processing_System_nios2_gen2_0_cpu_nios2_waves.do'
+Info: cpu: # 2020.02.17 21:07:32 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.02.17 21:07:32 (*)   Creating plain-text RTL
+Info: cpu: # 2020.02.17 21:07:33 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'My_Processing_System_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: My_Processing_System_tb: Done "My_Processing_System_tb" with 37 modules, 58 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System_tb.spd --output-directory=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System_tb.spd --output-directory=/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	37 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

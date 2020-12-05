@@ -1,0 +1,53 @@
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity floating  is
+port ( 
+	a,b: in std_logic_vector(31 DOWNTO 0);
+	--clk: in std_logic;
+	result : out std_logic_vector(31 DOWNTO 0)
+	
+	);
+end entity;
+
+architecture why of floating is
+
+
+--SIGNAL s_a,s_b : STD_LOGIC_VECTOR(0 DOWNTO 0) ;
+SIGNAL sum : STD_LOGIC_VECTOR(8 DOWNTO 0) ;
+SIGNAL sum2 : STD_LOGIC_VECTOR(9 DOWNTO 0);
+SIGNAL sum3 : STD_LOGIC_VECTOR(10 DOWNTO 0);
+SIGNAL f_a,f_b : STD_LOGIC_VECTOR(23 DOWNTO 0) ;
+SIGNAL mult : STD_LOGIC_VECTOR(47 DOWNTO 0) ;
+signal dum : std_logic_vector(8 downto 0) := "110000001";
+--SIGNAL i1,i2,i3,i4,i5,i6,i7 : STD_LOGIC_VECTOR(7 DOWNTO 0) ;
+--SIGNAL output: STD_LOGIC_VECTOR(7 DOWNTO 0);
+begin
+--result <= std_logic_vector(unsigned(a) * unsigned(b));
+--signed cal
+result(31) <= a(31) xor b(31);
+
+--exponential sum
+sum <= std_logic_vector( resize(unsigned(a(30 downto 23)),8+1) + resize(unsigned(b(30 downto 23)),8+1) );
+--dum(8 downto 0)<='110000010';
+sum2 <= std_logic_vector( resize(unsigned(sum),9+1) + resize(unsigned(dum),9+1) );
+
+--multiplication of fraction after adding 1 at start 
+f_a(23)<='1';
+f_a(22 downto 0)<=a(22 downto 0);
+f_b(23)<='1';
+f_b(22 downto 0)<=b(22 downto 0);
+mult <= std_logic_vector(unsigned(f_a) * unsigned(f_b));
+
+--adding the extra bit in exponential
+sum3 <= std_logic_vector( resize(unsigned(mult(47 downto 47)),10+1) + resize(unsigned(sum2),10+1) );
+result(30 downto 23)<= sum3(7 downto 0);
+--dont know where to start taking values from after multiplication, if statement needed .if mult has 11.....in starting then have to 
+--start from 46--24 if 01........then have to start with 45--23 ?????
+result(22 downto 0)<=mult(46 downto 24);
+end why;
+---------------

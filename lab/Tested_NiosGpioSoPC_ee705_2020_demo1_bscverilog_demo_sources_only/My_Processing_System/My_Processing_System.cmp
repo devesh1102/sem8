@@ -1,0 +1,12 @@
+	component My_Processing_System is
+		port (
+			clk_clk                   : in  std_logic                     := 'X';             -- clk
+			reset_reset_n             : in  std_logic                     := 'X';             -- reset_n
+			user_extra_inputs_export  : out std_logic_vector(3 downto 0);                     -- export
+			user_extra_outputs_export : in  std_logic_vector(3 downto 0)  := (others => 'X'); -- export
+			user_input_0_export       : out std_logic_vector(31 downto 0);                    -- export
+			user_input_1_export       : out std_logic_vector(31 downto 0);                    -- export
+			user_output_export        : in  std_logic_vector(31 downto 0) := (others => 'X')  -- export
+		);
+	end component My_Processing_System;
+

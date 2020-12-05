@@ -1,0 +1,35 @@
+// Copyright (c) 2014-2016 Bluespec, Inc.  All Rights Reserved.
+
+package Testbench;
+
+// ================================================================
+// Project imports
+
+import SequenceDetect :: *;
+
+// ================================================================
+
+(* synthesize *)
+module mkTestbench (Empty);
+
+   SequenceDetect sequence_det <- seq_det;
+
+   rule jare;
+sequence_det.put(2961610498);
+// 2961610498
+// 2963183362
+// sequence_det.put(2963183362);
+
+	endrule
+
+   rule rl_print_answer;
+   				
+      let x <- sequence_det.get;
+      $display ("The answer is %0d.", x);
+      $finish;
+   endrule
+endmodule
+
+// ================================================================
+
+endpackage

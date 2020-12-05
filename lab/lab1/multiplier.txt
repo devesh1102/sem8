@@ -1,0 +1,73 @@
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+
+
+entity multiplier is
+port ( 
+	a,b: in std_logic_vector(3 DOWNTO 0);
+clk: in std_logic;
+	result : out std_logic_vector(7 DOWNTO 0)
+	
+	);
+end entity;
+
+architecture why of multiplier is
+
+component adder
+port ( 
+	a,b,cin: in std_logic;
+	o:  out std_logic;
+	c: out std_logic
+	);
+end component;
+
+SIGNAL i1,i2,i3,i4,i5,i6,i7 : STD_LOGIC_VECTOR(7 DOWNTO 0) ;
+SIGNAL output: STD_LOGIC_VECTOR(7 DOWNTO 0);
+begin
+
+
+output(0)<= a(0) and b(0);
+
+i1(0) <= a(1) and b(0) ;
+i1(1) <= a(0) and b(1);
+s1a: adder port map(i1(0),i1(1),'0',output(1),i2(3));
+ 
+i2(0) <= a(2) and b(0) ;
+i2(1) <= a(1) and b(1);
+i2(2) <= a(0) and b(2) ;
+s2a: adder port map(i2(0),i2(1),i2(2),i2(4),i3(4));
+s2b: adder port map(i2(4),i2(3),'0',output(2),i3(5));
+
+
+i3(0) <= a(3) and b(0);
+i3(1) <= a(2) and b(1);
+i3(2) <= a(1) and b(2);
+i3(3) <= a(0) and b(3);
+s3a: adder port map(i3(0),i3(1),i3(2),i3(6),i4(3));
+s3b: adder port map(i3(3),i3(4),i3(5),i3(7),i4(4));
+s3c: adder port map(i3(6),i3(7),'0',output(3),i4(5));
+
+i4(0) <= a(3) and b(1);
+i4(1) <= a(2) and b(2);
+i4(2) <= a(1) and b(3);
+s4a: adder port map(i4(0),i4(1),i4(2),i4(6),i5(2));
+s4b: adder port map(i4(3),i4(4),i4(5),i4(7),i5(3));
+s4c: adder port map(i4(6),i4(7),'0',output(4),i5(4));
+
+i5(0) <= a(3) and b(2);
+i5(1) <= a(2) and b(3);
+s5a: adder port map(i5(0),i5(1),i5(2),i5(5),i6(1));
+s5b: adder port map(i5(3),i5(4),i5(5),output(5),i6(2));
+
+i6(0)<=  a(3) and b(3);
+s6b: adder port map(i6(0),i6(1),i6(2),output(6),output(7));
+process(clk)
+begin
+result<=output;
+end process;
+
+end why;
+---------------

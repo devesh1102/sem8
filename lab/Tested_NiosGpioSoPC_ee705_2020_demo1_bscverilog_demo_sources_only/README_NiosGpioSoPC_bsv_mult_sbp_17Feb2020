@@ -1,0 +1,33 @@
+--- Sachin B. Patkar ( ee-705, 17Feb 2020 )
+
+
+vi mkMult2.v  ### or whatever file
+
+    # note that the bsc generated verilog has synchronous reset_n 
+    # make it asynch reset_n so that the coprocessor can be reset
+    # For this needed to change the mkWhatever.v to use neg-edge triggered asynch reset_n
+
+
+cp hello_world_small_XXX.c software/my_software/hello_world_small.c
+make -f Makefile build
+
+cd software/my_sofware
+<path-to-nios-command-shell>/nios2_command_shell.sh  make -f Makefile mem_init_generate
+
+
+Inside "active" vsim session :
+
+prompt> do load_sim.tcl
+
+prompt> vlog <path-to-coproc>/mkMult2.v
+prompt> vcom <path-to-sopc>/nios_sopc_ee705_2020.vhd
+prompt> set TOP_LEVEL_NAME "nios_sopc_ee705_2020"
+
+prompt> ld   ( actually elab should suffice )
+prompt> force -freeze sim:clk 1 0 , 0 10ns -r 20ns
+prompt> force -freeze sim:reset_n 1 0 , 0 20ns , 1 45ns
+    # note that the bsc generated verilog has synchronous reset_n 
+    # make it asynch reset_n so that the coprocessor can be reset
+    # For this needed to change the mkWhatever.v to use neg-edge triggered asynch reset_n
+
+prompt> run 10ms

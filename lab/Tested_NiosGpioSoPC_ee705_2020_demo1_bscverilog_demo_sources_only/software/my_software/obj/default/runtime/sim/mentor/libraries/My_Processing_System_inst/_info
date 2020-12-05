@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/software/my_software/obj/default/runtime/sim/mentor
+vMy_Processing_System
+!s110 1581954592
+!i10b 1
+!s100 U42BRD3?g43RDz7D8:WBY1
+I6L4_^D_Y76ba4;b6PTh`03
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/patkar/1Patkar/ee705_2020/Tested_NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/Tested_NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/software/my_software/obj/default/runtime/sim/mentor
+w1581953849
+8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System.v
+F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System.v
+L0 6
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1581954592.000000
+!s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System.v|
+!s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System.v|-work|My_Processing_System_inst|
+!i113 1
+o-work My_Processing_System_inst
+tCvgOpt 0
+n@my_@processing_@system

@@ -1,0 +1,12 @@
+    Get familiar with a multilayer perceptron or a deep feed-forward neural network and their applications.
+
+    mu
+    2. How backpropagation is used in these artificial neural networks (non-spiking ANNs) to learn the weights?
+    3. What role does the neuron activation function play in implementing the backpropagation rule?
+
+    4. What modifications are used by the spiking neural networks (SNNs) to be able to do the same tasks as ANNs?
+    5. Considering backpropagation as a general enough learning rule which we want to exploit in SNNs as well, how is it ported to neurons which are now spiking and hence have a significantly different activation type?
+    6. What features of spiking neuronal dynamics (membrane potential, spike timings etc.) can be used for calculating error gradients used in backpropagation?
+
+    7. Are these update rules hardware friendly - meaning do they use local information available to synapses or are they global?
+    8. Can we implement a feed-forward network with spiking neurons and show learning based on backpropagation using spiking neurons data for a simple dataset?

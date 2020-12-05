@@ -1,0 +1,560 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/software/my_software/obj/default/runtime/sim/mentor
+vMy_Processing_System_nios2_gen2_0_cpu
+Z0 !s110 1581954584
+!i10b 1
+!s100 `b4^Nh]9`:IN[8WPEz0jJ2
+IRLVZAFZ4_QF7HAB?IgfBX2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/patkar/1Patkar/ee705_2020/Tested_NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/Tested_NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/software/my_software/obj/default/runtime/sim/mentor
+Z3 w1581953853
+Z4 8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu.v
+Z5 F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu.v
+L0 2834
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1581954584.000000
+Z8 !s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu.v|
+Z9 !s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+Z11 tCvgOpt 0
+n@my_@processing_@system_nios2_gen2_0_cpu
+vMy_Processing_System_nios2_gen2_0_cpu_debug_slave_sysclk
+R0
+!i10b 1
+!s100 QVIDThkImY?]hF@KQWH?J1
+I>gP^Ua]OiHO?XDU:a`lFd0
+R1
+R2
+R3
+8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_sysclk.v
+F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_sysclk.v
+Z12 L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_debug_slave_sysclk
+vMy_Processing_System_nios2_gen2_0_cpu_debug_slave_tck
+Z13 !s110 1581954583
+!i10b 1
+!s100 ;[7VdbANPTToBjDRJTZ@i2
+IO`lg3kbn09A_kcL][Jc?11
+R1
+R2
+R3
+8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_tck.v
+F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_tck.v
+R12
+R6
+r1
+!s85 0
+31
+Z14 !s108 1581954583.000000
+!s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_debug_slave_tck
+vMy_Processing_System_nios2_gen2_0_cpu_debug_slave_wrapper
+!s110 1581954586
+!i10b 1
+!s100 ]jaLUF3Re9Pzb_hLC3Mhn0
+IV>98XDD`5i7n8G?;5:I`Z2
+R1
+R2
+R3
+8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_wrapper.v
+F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R12
+R6
+r1
+!s85 0
+31
+!s108 1581954585.000000
+!s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_debug_slave_wrapper
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_avalon_reg
+R0
+!i10b 1
+!s100 9N`z5bI4?PF_fM5MmjocV3
+I:T00D8R_Df0Og5;[GAkmS1
+R1
+R2
+R3
+R4
+R5
+L0 2023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_avalon_reg
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci
+R0
+!i10b 1
+!s100 734m<B03;2mm3>m3PLEYS3
+I_jXdXgeId`nSko6<BBdcz2
+R1
+R2
+R3
+R4
+R5
+L0 2362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_break
+R0
+!i10b 1
+!s100 XX5OC]lK<0iVCJ<G=;[481
+IWe2819XZcdLS]cKf1E=I<3
+R1
+R2
+R3
+R4
+R5
+L0 295
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_break
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R0
+!i10b 1
+!s100 E:Q0I_WlhDW<V@IB3GDl31
+IPb8P;0P;cGOQaZd[O>kS_1
+R1
+R2
+R3
+R4
+R5
+L0 1265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_dbrk
+R0
+!i10b 1
+!s100 5i=Qc@GY;RY=d`D26o=Z@3
+I=UBjSJ<je;UE3_GLMN6Un3
+R1
+R2
+R3
+R4
+R5
+L0 795
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_dbrk
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_debug
+R0
+!i10b 1
+!s100 NKQ^ZHhI;`K>=9^8BKISW1
+IzSZM7BD8jZLP<bAPZa1R60
+R1
+R2
+R3
+R4
+R5
+L0 153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_debug
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_dtrace
+R0
+!i10b 1
+!s100 BVJ;JWL<;Zlia2jKf;FT]0
+I:bKN3]B`XSOP6dWY@`Gbi1
+R1
+R2
+R3
+R4
+R5
+L0 1183
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_dtrace
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_fifo
+R0
+!i10b 1
+!s100 fdXG?Y2JL5]LTAHc42Kah0
+IcCXZA=jJPfi;ndWnHHkgD3
+R1
+R2
+R3
+R4
+R5
+L0 1427
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_fifo
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R0
+!i10b 1
+!s100 5g>0l<NP6oS5iQ0P]=nb:0
+IKNPP3Waz?DeJYc4U>V=0`2
+R1
+R2
+R3
+R4
+R5
+L0 1380
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R0
+!i10b 1
+!s100 EQG8Djh08z_?NQOd3KJFh2
+II]92aPc=g3zW;o;Phmi<m1
+R1
+R2
+R3
+R4
+R5
+L0 1337
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_im
+R0
+!i10b 1
+!s100 oTl@UmA6KTj1?2_[NNTY70
+IQ4bPPd=@0h]Nl^d1kY3kJ2
+R1
+R2
+R3
+R4
+R5
+L0 1936
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_im
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_itrace
+R0
+!i10b 1
+!s100 Z1f74U;^h4aYBKC6ja<o=1
+Ik8^j=Y1lbI__H[VWo1WCI1
+R1
+R2
+R3
+R4
+R5
+L0 982
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_itrace
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_pib
+R0
+!i10b 1
+!s100 =C2I[IAC7Pf`hQ;age?^G0
+IX4ZOmQ[kd;Oe9`TMz1YY@0
+R1
+R2
+R3
+R4
+R5
+L0 1913
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_pib
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_td_mode
+R0
+!i10b 1
+!s100 22WPoVR7i6g@]C<LaF0K91
+I6ZmR4kHZgo5;9MAhLJ9Yo2
+R1
+R2
+R3
+R4
+R5
+L0 1115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_td_mode
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_oci_xbrk
+R0
+!i10b 1
+!s100 [dXj6U7Z:a<HQXDg9dRe=0
+I6XWFE>R`Rh>k8KR_CnBmP3
+R1
+R2
+R3
+R4
+R5
+L0 588
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_oci_xbrk
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_ocimem
+R0
+!i10b 1
+!s100 4I>gDVN=J4:X0@g[FH[aP0
+ID2mo@O<kZm1A9a18P4g6=2
+R1
+R2
+R3
+R4
+R5
+L0 2181
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_ocimem
+vMy_Processing_System_nios2_gen2_0_cpu_nios2_performance_monitors
+R0
+!i10b 1
+!s100 VS^1k7ZOF4[hYRO3Jl?nD3
+Ik8dd4R;E7obBNMm]UQiZm3
+R1
+R2
+R3
+R4
+R5
+L0 2006
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_nios2_performance_monitors
+vMy_Processing_System_nios2_gen2_0_cpu_ociram_sp_ram_module
+R0
+!i10b 1
+!s100 ZZTAHa_YV7[BDlaSEEg1D1
+I;WF>EzTnOY;ozRI:dZK<=2
+R1
+R2
+R3
+R4
+R5
+L0 2116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_ociram_sp_ram_module
+vMy_Processing_System_nios2_gen2_0_cpu_register_bank_a_module
+R0
+!i10b 1
+!s100 oNOJ58=RY:77`AB5N3oaB1
+IJNkhJAm6l?^Xh=dggRFm30
+R1
+R2
+R3
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_register_bank_a_module
+vMy_Processing_System_nios2_gen2_0_cpu_register_bank_b_module
+R0
+!i10b 1
+!s100 d5BH@]EUl0GjA=]L9_[Y?1
+I^i2N:K>mG@m=k_@LDO]K33
+R1
+R2
+R3
+R4
+R5
+L0 87
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_register_bank_b_module
+vMy_Processing_System_nios2_gen2_0_cpu_test_bench
+R13
+!i10b 1
+!s100 hhZIO;ADz:=KZj=O?Uh570
+I_^YJni<`UJZ8RLL=8<UR^3
+R1
+R2
+R3
+8/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_test_bench.v
+F/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_test_bench.v
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 /tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|/tmp/NiosGpioSoPC_ee705_2020_demo1_bscverilog_demo_sources_only/My_Processing_System/testbench/My_Processing_System_tb/simulation/submodules/My_Processing_System_nios2_gen2_0_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+R11
+n@my_@processing_@system_nios2_gen2_0_cpu_test_bench
